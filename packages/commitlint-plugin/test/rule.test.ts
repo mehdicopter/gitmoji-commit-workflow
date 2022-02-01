@@ -42,18 +42,292 @@ describe('commit start with gitmoji code', () => {
     expect(value).toEqual([true, 'passed']);
   });
 
+  it('🎨 should pass', () => {
+    const value = emojiRule({ raw: '🎨 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('⚡️ should pass', () => {
+    const value = emojiRule({ raw: '⚡️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🔥 should pass', () => {
+    const value = emojiRule({ raw: '🔥 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🐛 should pass', () => {
+    const value = emojiRule({ raw: '🐛 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🚑️ should pass', () => {
+    const value = emojiRule({ raw: '🚑️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('✨ should pass', () => {
+    const value = emojiRule({ raw: '✨ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('📝 should pass', () => {
+    const value = emojiRule({ raw: '📝 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🚀 should pass', () => {
+    const value = emojiRule({ raw: '🚀 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('💄 should pass', () => {
+    const value = emojiRule({ raw: '💄 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
   it('🎉 should pass', () => {
     const value = emojiRule({ raw: '🎉 test' } as Commit, when);
     expect(value).toEqual([true, 'passed']);
   });
-
   it('✅ should pass', () => {
     const value = emojiRule({ raw: '✅ test' } as Commit, when);
     expect(value).toEqual([true, 'passed']);
   });
-
-  it('💄 should pass', () => {
-    const value = emojiRule({ raw: '💄 test' } as Commit, when);
+  it('🔒️ should pass', () => {
+    const value = emojiRule({ raw: '🔒️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🔐 should pass', () => {
+    const value = emojiRule({ raw: '🔐 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🔖 should pass', () => {
+    const value = emojiRule({ raw: '🔖 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🚨 should pass', () => {
+    const value = emojiRule({ raw: '🚨 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🚧 should pass', () => {
+    const value = emojiRule({ raw: '🚧 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('💚 should pass', () => {
+    const value = emojiRule({ raw: '💚 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('⬇️ should pass', () => {
+    const value = emojiRule({ raw: '⬇️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('⬆️ should pass', () => {
+    const value = emojiRule({ raw: '⬆️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('📌 should pass', () => {
+    const value = emojiRule({ raw: '📌 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('👷 should pass', () => {
+    const value = emojiRule({ raw: '👷 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('📈 should pass', () => {
+    const value = emojiRule({ raw: '📈 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('♻️ should pass', () => {
+    const value = emojiRule({ raw: '♻️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('➕ should pass', () => {
+    const value = emojiRule({ raw: '➕ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('➖ should pass', () => {
+    const value = emojiRule({ raw: '➖ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🔧 should pass', () => {
+    const value = emojiRule({ raw: '🔧 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🔨 should pass', () => {
+    const value = emojiRule({ raw: '🔨 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🌐 should pass', () => {
+    const value = emojiRule({ raw: '🌐 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('✏️ should pass', () => {
+    const value = emojiRule({ raw: '✏️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('💩 should pass', () => {
+    const value = emojiRule({ raw: '💩 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('⏪️ should pass', () => {
+    const value = emojiRule({ raw: '⏪️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🔀 should pass', () => {
+    const value = emojiRule({ raw: '🔀 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('📦️ should pass', () => {
+    const value = emojiRule({ raw: '📦️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('👽️ should pass', () => {
+    const value = emojiRule({ raw: '👽️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🚚 should pass', () => {
+    const value = emojiRule({ raw: '🚚 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('📄 should pass', () => {
+    const value = emojiRule({ raw: '📄 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('💥 should pass', () => {
+    const value = emojiRule({ raw: '💥 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🍱 should pass', () => {
+    const value = emojiRule({ raw: '🍱 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('♿️ should pass', () => {
+    const value = emojiRule({ raw: '♿️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('💡 should pass', () => {
+    const value = emojiRule({ raw: '💡 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🍻 should pass', () => {
+    const value = emojiRule({ raw: '🍻 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('💬 should pass', () => {
+    const value = emojiRule({ raw: '💬 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🗃️ should pass', () => {
+    const value = emojiRule({ raw: '🗃️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🔊 should pass', () => {
+    const value = emojiRule({ raw: '🔊 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🔇 should pass', () => {
+    const value = emojiRule({ raw: '🔇 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('👥 should pass', () => {
+    const value = emojiRule({ raw: '👥 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🚸 should pass', () => {
+    const value = emojiRule({ raw: '🚸 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🏗️ should pass', () => {
+    const value = emojiRule({ raw: '🏗️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('📱 should pass', () => {
+    const value = emojiRule({ raw: '📱 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🤡 should pass', () => {
+    const value = emojiRule({ raw: '🤡 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🥚 should pass', () => {
+    const value = emojiRule({ raw: '🥚 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🙈 should pass', () => {
+    const value = emojiRule({ raw: '🙈 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('📸 should pass', () => {
+    const value = emojiRule({ raw: '📸 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('⚗️ should pass', () => {
+    const value = emojiRule({ raw: '⚗️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🔍️ should pass', () => {
+    const value = emojiRule({ raw: '🔍️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🏷️ should pass', () => {
+    const value = emojiRule({ raw: '🏷️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🌱 should pass', () => {
+    const value = emojiRule({ raw: '🌱 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🚩 should pass', () => {
+    const value = emojiRule({ raw: '🚩 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🥅 should pass', () => {
+    const value = emojiRule({ raw: '🥅 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('💫 should pass', () => {
+    const value = emojiRule({ raw: '💫 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🗑️ should pass', () => {
+    const value = emojiRule({ raw: '🗑️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🛂 should pass', () => {
+    const value = emojiRule({ raw: '🛂 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🩹 should pass', () => {
+    const value = emojiRule({ raw: '🩹 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🧐 should pass', () => {
+    const value = emojiRule({ raw: '🧐 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('⚰️ should pass', () => {
+    const value = emojiRule({ raw: '⚰️ test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🧪 should pass', () => {
+    const value = emojiRule({ raw: '🧪 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('👔 should pass', () => {
+    const value = emojiRule({ raw: '👔 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🩺 should pass', () => {
+    const value = emojiRule({ raw: '🩺 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🧱 should pass', () => {
+    const value = emojiRule({ raw: '🧱 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🧑‍💻 should pass', () => {
+    const value = emojiRule({ raw: '🧑‍💻 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('💸 should pass', () => {
+    const value = emojiRule({ raw: '💸 test' } as Commit, when);
+    expect(value).toEqual([true, 'passed']);
+  });
+  it('🧵 should pass', () => {
+    const value = emojiRule({ raw: '🧵 test' } as Commit, when);
     expect(value).toEqual([true, 'passed']);
   });
 });
